@@ -1,0 +1,33 @@
+{
+	"name": "hw-material-scrapper",
+	"version": "1.0.0",
+	"description": "A program to web scrape JPG files from Haworth website. Then get RGB values of the JPG files and output it in a certain format. Created using Electron",
+	"main": "index.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/faizriad94/hw-material-scrapper.git"
+	},
+	"keywords": [
+		"web",
+		"scrapping",
+		"node",
+		"electron"
+	],
+	"author": "Faiz Riad",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/faizriad94/hw-material-scrapper/issues"
+	},
+	"homepage": "https://github.com/faizriad94/hw-material-scrapper#readme",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.3",
+		"get-pixels": "^3.3.2",
+		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"electron": "^8.2.1"
+	}
+}

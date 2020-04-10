@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Hw Material</title>
+	</head>
+	<body>
+		<header>
+			<h1>Material Scrapper</h1>
+		</header>
+		<div>
+			<input
+				type="text"
+				class="url"
+				placeholder="Enter URL for JPG files: surfaces.haworth.com/"
+				value="https://surfaces.haworth.com/surfacedetail?ftype=STN&fpat=YE"
+			/>
+		</div>
+
+		<div class="container">
+			<input type="text" class="savePath" placeholder="Save files to:" />
+			<button id="saveButton">...</button>
+		</div>
+
+		<div>
+			<button class="run">Run script</button>
+		</div>
+
+		<div class="lds">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<span id="answer"></span>
+	</body>
+	<script src="./app.js"></script>
+</html>
