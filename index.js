@@ -55,7 +55,7 @@ const template = [
 	// 	submenu: [
 	// 		{
 	// 			label:
-	// 				'For suggestions/ideas/bug reports, please email ahmad.faiz@haworth.com'
+	// 				'Insert some labels'
 	// 		}
 	// 	]
 	// }
